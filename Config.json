@@ -1,0 +1,9 @@
+{
+	"Bot": {
+		"ID": "1150404975357329468",
+		"Secret": "7eMueuC_IQ41tQEeH_MSlBwYVpnOUr3y",
+		"Token": "MTE1MDQwNDk3NTM1NzMyOTQ2OA.GJSV85.dbQ_QiMU4I44EbDYo7_49l9japdeOOmUn3rkPU"
+	},
+
+	"Mongo": "mongodb+srv://Root:19902267@fondra.gofxd8g.mongodb.net/?retryWrites=true&w=majority"
+}

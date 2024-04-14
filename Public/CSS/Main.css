@@ -1,0 +1,288 @@
+* {
+	cursor: default;
+}
+
+html, body {
+	margin: 0;
+	overflow: hidden;
+	background-color: rgb(15, 15, 15);
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font: 700 1.5rem "Poppins", sans-serif;
+	margin: 0;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+	background: rgba(15, 15, 15, 0); 
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(55, 126, 240); 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(55, 126, 240); 
+}
+
+.Glitch {
+	color: rgb(255, 146, 146);
+	font: 700 1.4rem monospace;
+	margin: 0;
+}
+
+.Particles-Main {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	z-index: 0;
+	margin: 0;
+}
+
+.Games {
+	display: flex;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	flex-direction: column;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.GameCard {
+	margin: 5px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	width: 250px;
+	background-color: rgb(15, 15, 15);
+	border: 1px solid rgb(55, 126, 240);
+	border-radius: 5px;
+	justify-content: left;
+	align-items: center;
+	box-shadow: 0 0 5px rgb(55, 126, 240);
+}
+
+.Info {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-content: center;
+	padding-left: 10px;
+}
+
+.Icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.Name {
+	color: rgb(255, 255, 255);
+    font-family: monospace;
+	text-align: left;
+}
+
+.Status-Green {
+	color: rgb(31, 255, 117);
+    font-family: monospace;
+	height: 50%;
+	margin: 0;
+}
+
+.Status-Red {
+	color: rgb(255, 95, 31);
+    font-family: monospace;
+	height: 50%;
+	margin: 0;
+}
+
+.Status-Accent {
+	color: rgb(55, 126, 240);
+    font-family: monospace;
+	height: 50%;
+	margin: 0;
+}
+
+.Status-Unknown {
+	color: rgb(77, 77, 77);
+    font-family: monospace;
+	height: 50%;
+	margin: 0;
+}
+
+.Setup {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+}
+
+.Main {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+}
+
+.Donate {
+	display: flex;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	flex-direction: column;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.About {
+	display: flex;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	flex-direction: column;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.Information-Donate {
+	width: 100%;
+	max-height: 50vh;
+	border: 1px solid rgb(55, 126, 240);
+    border-radius: 20px 20px 20px 20px;
+	padding: 10px 10px 10px 10px;
+	overflow: hidden auto;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	flex-direction: column;
+	margin: 5px 0 0 0;
+}
+
+.Information-About {
+	width: 40vw;
+	max-height: 50vh;
+	border: 1px solid rgb(55, 126, 240);
+    border-radius: 20px 0 0 20px;
+	padding: 20px 20px 20px 20px;
+	overflow: hidden auto;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	flex-direction: column;
+	margin: 5px 0 0 0;
+}
+
+.Info-Title {
+	color: rgb(55, 126, 240);
+	font: 800 1rem "Poppins", sans-serif;
+	text-align: left;
+	margin: 0;
+}
+
+.Info-Message {
+	color: rgb(255, 255, 255);
+	font: 600 0.75rem "Poppins", sans-serif;
+	text-align: left;
+	margin: 0;
+}
+
+.Title {
+	color: rgb(55, 126, 240);
+	font: 800 4rem "Poppins", sans-serif;
+	text-align: center;
+	margin-bottom: -15px
+}
+
+.Message {
+	color: rgb(255, 255, 255);
+	font: 700 1rem "Poppins", sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+.Divider {
+	color: rgb(161, 161, 161);
+	font: 500 1rem monospace, sans-serif;
+	text-align: center;
+    padding: 0 2px 0 2px;
+	margin: 0;
+}
+
+.Buttons {
+    margin: 25px 0 0 0;
+	list-style: none;
+	text-align: center;
+}
+
+.Button {
+	color: rgb(255, 255, 255);
+	font: 700 1rem monospace, sans-serif;
+	text-align: center;
+	padding: 0 5px 0 5px;
+	cursor: pointer;
+    transition: color .05s ease-in;
+}
+
+.Button:link, .Button:visited, .Button:active, .Button:click
+{
+    list-style: none;
+    line-height: 10px;
+    text-align: center;
+    user-select: none;
+	text-decoration: none;
+}
+
+.Button:hover
+{
+    color: rgb(55, 126, 240);
+    font-family: monospace;
+}
+
+.Home-Button {
+	color: rgb(255, 255, 255);
+	font: 700 1rem monospace, sans-serif;
+	text-align: center;
+	padding: 0 5px 0 5px;
+    transition: color .05s ease-in;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.Home-Button:link, .Home-Button:visited, .Home-Button:active, .Home-Button:click
+{
+    list-style: none;
+    line-height: 10px;
+    text-align: center;
+    user-select: none;
+	text-decoration: none;
+}
+
+.Home-Button:hover
+{
+    color: rgb(55, 126, 240);
+    font-family: monospace;
+}

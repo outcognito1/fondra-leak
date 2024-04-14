@@ -1,0 +1,12 @@
+{
+	"Token": "MTE1MDQwNDk3NTM1NzMyOTQ2OA.GYEK5s.MX84SVneJIxJI2JxSjBXaHf3pqwzhLJFbHJaic",
+	"Database": "mongodb+srv://Root:mOgogCF3RKguCla9@discordbot.no9tusm.mongodb.net/?retryWrites=true&w=majority",
+	"DeveloperID": "911566820710948954",
+	
+	"Status": [
+		{ "Type": "Playing", "Message": "Code" },
+		{ "Type": "Watching", "Message": "Fondra" },
+		{ "Type": "Watching", "Message": "Host" },
+		{ "Type": "Listening", "Message": "Spotify" }
+	]
+}
